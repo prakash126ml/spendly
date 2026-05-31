@@ -22,6 +22,7 @@ Extend base.html if it exists, otherwise match the style of
 landing.html.
 3. In @templates/landing.html, update the "Terms and Conditions"
 footer link href from "#" to "/terms".
+4. Make sure the appearance looks like the website's theme.
 
 git commit -m "landing: add terms and conditions page and route”
 
@@ -37,7 +38,7 @@ Data Storage, Third Party Services, and Contact Us.
 Match the style of terms.html.
 3. In @templates/landing.html, update the "Privacy Policy"
 footer link href from "#" to "/privacy".
-4. Make sure the appearance looks like the website's theme
+4. Make sure the appearance looks like the website's theme.
 
 git commit -m "landing: add privacy policy page and route”
 
